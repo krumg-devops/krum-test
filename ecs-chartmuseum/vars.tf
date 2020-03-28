@@ -1,14 +1,14 @@
 variable s3-bucket-name {
-  default = ""
-  type = "string"
+  default = "tests3devops"
+  type= string
 }
 
 variable dynamodb-name {
-  default = ""
-  type = "string"
+  default = "testdynamo"
+  type = string
 }
 
 variable ECR_REPO {
-  default = ""
-  type = "string"
+  default = "krumgr900"
+  type = string
 }
