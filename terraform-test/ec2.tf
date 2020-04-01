@@ -1,7 +1,7 @@
 provider "aws" {
-   access_key = "AKIASV4DAWSLAMW34HEJ"
-   secret_key = "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"
-   region = "us-east-2c"
+   access_key = "AKIASV4DAWSLH6KVR24Y"
+   secret_key = "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"
+   region = "us-east-2"
 }
 
 resource "aws_instance" "terraform-test" {
